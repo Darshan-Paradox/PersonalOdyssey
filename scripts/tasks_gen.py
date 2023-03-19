@@ -34,7 +34,7 @@ elif iday == 5:
 elif iday == 6:
     physical.append(f"Upper Body:: Shoulder press, Lateral raise, Reverse fly, Seated rows, Lat pulls")
 elif iday == 0:
-    physical.append(f"Do meditation exercises")
+    physical.append(f"Do meditation  + yoga exercises")
 
 ## academic task logic
 academics_lower = np.abs(level)
@@ -54,7 +54,7 @@ elif iday == 0:
 elif iday == 2:
     course = "Power Electronics"
 
-academics.append(f"Solve {np.random.randint(academics_lower, academics_upper)} questions of {course}")
+academics.append(f"Solve {np.random.randint(academics_lower + 2, academics_upper)} questions of {course}")
 if iday % 2 == 0:
     _course = "Complete one chapter of Business Analytics"
 else:
