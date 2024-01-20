@@ -22,7 +22,7 @@ conn.close()
 
 ## physical task logic
 if iday == 1:
-    physical.append(f"Do cardio-vascular exercises")
+    physical.append(f"Do cardio-vascular exercises + yoga exercises")
 elif iday == 2:
     physical.append(f"Lower Body:: Squats, Deadlifts, Hip Thrusts, Lunges")
 elif iday == 3:
